@@ -3,8 +3,16 @@ require 'models/robot'
 
 class RobotManager
 
+  attr_reader :database
+
+  def self.database
+    @database ||= YAML::Store.new('db/robots')
+  end
+
   def self.all
-    [Robot.new({id: 1}), Robot.new({id: 2}), Robot.new({id: 3})]
+    database.transaction do
+      database['robots'] || []
+    end
   end
 
 end

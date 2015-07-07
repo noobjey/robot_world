@@ -1,5 +1,7 @@
 <h1>Deathbots</h1>
 
+<%= @robots.inspect %>
+
 <% @robots.each do |robot| %>
-  <h4>Model: <%= robot.id %></h4>
+  <h4>Model: <%= robot[:id] %></h4>
 <% end %>
