@@ -1,0 +1,2 @@
+class RobotManagerApp
+end
