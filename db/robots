@@ -1,5 +1,26 @@
 ---
 robots:
 - :id: 1
+  :name: Jonny 5
+  :city: Astoria
+  :state: OR
+  :avatar: gold plated jonny
+  :birthdate: 04/01/1986
+  :date_hired: 05/05/1988
+  :department: NOVA Laboratories
 - :id: 2
+  :name: Terminator
+  :city: Los Angelos
+  :state: CA
+  :avatar: robot skull
+  :birthdate: 06/04/2029
+  :date_hired: 07/05/2030
+  :department: Skynet
 - :id: 3
+  :name: Robocop
+  :city: Detroit
+  :state: MI
+  :avatar: original stainless
+  :birthdate: 02/02/1987
+  :date_hired: 03/03/1987
+  :department: OCP

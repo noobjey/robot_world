@@ -1,7 +1,14 @@
-<h1>Deathbots</h1>
 
-<%= @robots.inspect %>
 
 <% @robots.each do |robot| %>
-  <h4>Model: <%= robot[:id] %></h4>
+  <article>
+    <h4>Id: <%= robot[:id] %></h4>
+    <h4>Name: <%= robot[:name] %></h4>
+    <h4>City: <%= robot[:city] %></h4>
+    <h4>State: <%= robot[:state] %></h4>
+    <h4>Avatar: <%= robot[:avatar] %></h4>
+    <h4>Birthdate: <%= robot[:birthdate] %></h4>
+    <h4>Date Hired: <%= robot[:date_hired] %></h4>
+    <h4>Department: <%= robot[:department] %></h4>
+  </article>
 <% end %>
