@@ -1,0 +1,16 @@
+article {
+  background: aliceblue;
+  margin: 1em;
+  padding: 1em;
+  border: 1em groove cadetblue;
+}
+
+header {
+  text-align: center;
+  font-size: larger;
+}
+
+header sub {
+  position: relative;
+  bottom: 2em;
+}
