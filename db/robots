@@ -25,18 +25,10 @@ robots:
   :date_hired: 03/03/1987
   :department: OCP
 - :id: 4
-  :name: the name
+  :name: works still
   :city: the
   :state: stuff
   :avatar: in
   :birthdate: here
   :date_hired: with
   :department: update
-- :id: 5
-  :name: lalalalala
-  :city: guy
-  :state: to
-  :avatar: make
-  :birthdate: a
-  :date_hired: lalalalal
-  :department: ahhh
