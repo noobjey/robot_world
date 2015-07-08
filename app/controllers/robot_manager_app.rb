@@ -33,4 +33,9 @@ class RobotManagerApp < Sinatra::Base
     RobotManager.update(@params)
     redirect "/robots/#{@params[:id]}"
   end
+
+  delete '/robots/:id' do
+    RobotManager.delete(@params[:id])
+    redirect "/robots"
+  end
 end
