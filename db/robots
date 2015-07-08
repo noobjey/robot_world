@@ -26,17 +26,17 @@ robots:
   :department: OCP
 - :id: 4
   :name: the name
-  :city: the city
-  :state: the state
-  :avatar: the avatar
-  :birthdate: bday
-  :date_hired: hired
-  :department: department
+  :city: the
+  :state: stuff
+  :avatar: in
+  :birthdate: here
+  :date_hired: with
+  :department: update
 - :id: 5
-  :name: next
+  :name: lalalalala
   :city: guy
   :state: to
   :avatar: make
   :birthdate: a
-  :date_hired: robot
+  :date_hired: lalalalal
   :department: ahhh

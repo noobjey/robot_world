@@ -1,0 +1,31 @@
+<form action="/robots" method="post">
+  <p>Create A Robot:</p>
+
+  <label for="id">Id</label>
+  <input type='text' name='id' readonly="readonly" value="<%= @robot[:id] %>" /><br/>
+
+  <label for="name">Name</label>
+  <input type='text' name='name' value="<%= @robot[:name] %>" /><br/>
+
+  <label for="city">City</label>
+  <input type='text' name='city' value="<%= @robot[:city] %>" /><br/>
+
+  <label for="state">State</label>
+  <input type='text' name='state' value="<%= @robot[:state] %>" /><br/>
+
+  <label for="avatar">Avatar</label>
+  <input type='text' name='avatar' value="<%= @robot[:avatar] %>"/><br/>
+
+  <label for="birthdate">Birthdate</label>
+  <input type='text' name='birthdate' value="<%= @robot[:birthdate] %>"/><br/>
+
+  <label for="date_hired">Date Hired</label>
+  <input type='text' name='date_hired' value="<%= @robot[:date_hired] %>"/><br/>
+
+  <label for="department">Department</label>
+  <input type='text' name='department' value="<%= @robot[:department] %>"/><br/>
+
+  <input type="hidden" name="_method" value="PUT">
+
+  <input type='submit' value="Update"/>
+</form>

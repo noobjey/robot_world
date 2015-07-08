@@ -36,6 +36,19 @@ class RobotManager
         department: args[:department]
       }
     end
+  end
 
+  def self.update(args)
+    database.transaction do
+      robot        = database['robots'].find { |robot| robot[:id].eql?(args[:id].to_i) }
+      robot[:name] = args[:name]
+      robot[:city] = args[:city]
+      robot[:state] = args[:state]
+      robot[:avatar] = args[:avatar]
+      robot[:birthdate] = args[:birthdate]
+      robot[:date_hired] = args[:date_hired]
+      robot[:department] = args[:department]
+      robot
+    end
   end
 end
