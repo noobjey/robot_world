@@ -8,4 +8,19 @@ class RobotManagerApp < Sinatra::Base
     @robots = RobotManager.all
     erb :index
   end
+
+  get '/robots/new' do
+    @next_id = RobotManager.next_id
+    erb :new
+  end
+
+  get '/robots/:id' do
+    @robot = RobotManager.find(@params['id'])
+    erb :robot
+  end
+
+  post '/robots' do
+    RobotManager.create(@params)
+    redirect "/robots/#{@params[:id]}"
+  end
 end

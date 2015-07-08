@@ -1,0 +1,29 @@
+<form action="/robots" method="post">
+  <p>Create A Robot:</p>
+
+  <label for="id">Id</label>
+  <input type='text' readonly="readonly" value="<%= @next_id %>" name='id'/><br/>
+
+  <label for="name">Name</label>
+  <textarea name='name'></textarea><br/>
+
+  <label for="city">City</label>
+  <input type='text' name='city'/><br/>
+
+  <label for="state">State</label>
+  <input type='text' name='state'/><br/>
+
+  <label for="avatar">Avatar</label>
+  <input type='text' name='avatar'/><br/>
+
+  <label for="birthdate">Birthdate</label>
+  <input type='text' name='birthdate'/><br/>
+
+  <label for="date_hired">Date Hired</label>
+  <input type='text' name='date_hired'/><br/>
+
+  <label for="department">Department</label>
+  <input type='text' name='department'/><br/>
+
+  <input type='submit' value="Create"/>
+</form>

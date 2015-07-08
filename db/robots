@@ -24,3 +24,19 @@ robots:
   :birthdate: 02/02/1987
   :date_hired: 03/03/1987
   :department: OCP
+- :id: 4
+  :name: the name
+  :city: the city
+  :state: the state
+  :avatar: the avatar
+  :birthdate: bday
+  :date_hired: hired
+  :department: department
+- :id: 5
+  :name: next
+  :city: guy
+  :state: to
+  :avatar: make
+  :birthdate: a
+  :date_hired: robot
+  :department: ahhh
